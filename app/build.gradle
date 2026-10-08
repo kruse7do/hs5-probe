@@ -1,0 +1,22 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.kruse7do.hs5probe'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.kruse7do.hs5probe'
+        minSdk 23
+        targetSdk 28
+        versionCode 3
+        versionName '0.2.1'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
